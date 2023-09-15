@@ -1,10 +1,14 @@
-import React from 'react'
-import Hero from './components/Hero/Hero'
+import React from "react";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 
 const App = () => {
   return (
-    <Hero/>
-  )
-}
+    <>
+      <Header />
+      <Hero />
+    </>
+  );
+};
 
-export default App
+export default App;
