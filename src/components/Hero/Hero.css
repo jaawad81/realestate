@@ -1,5 +1,4 @@
 .hero-wrapper {
-  background-color: var(--black);
   color: white;
   position: relative;
   padding-bottom: 2rem;
@@ -7,7 +6,7 @@
 
 .hero-wrapper .hero-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: flex-end;
 }
 /* right Side */

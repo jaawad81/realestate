@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="h-container innerWidth paddings ">
-        <img src="./logo.png" alt="Logo" />
+        <img src="./logo.png" alt="Logo"  width={100}/>
         <div className="h-menu">
           <a href="/">Residences</a>
           <a href="/">Our Value</a>

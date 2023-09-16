@@ -1,6 +1,7 @@
 .h-wrapper{
     background-color: var(--black);
     color: white;
+    z-index: 1000;
     
     .h-container{
         display: flex;
