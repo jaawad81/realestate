@@ -9,13 +9,13 @@ const Residences = () => {
   return (
     <section className="r-wrapper">
       <div className="r-container innerWidth paddings">
-        <div className="r-head flexColStart">
+        <div className="r-head ">
           <span className="orangeText">Best Choice</span>
           <span className="primaryText">Our Residences</span>
         </div>
 
         <div   className="r-s-container" style={{ width: "100%" }}>
-          <Swiper slidesPerView={4} spaceBetween={5}>
+          <Swiper slidesPerView={1} spaceBetween={5}>
             <Buttons />
             {data.map((d, i) => (
               <SwiperSlide key={i}>

@@ -1,13 +1,37 @@
-.f-container{
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    background: var(--light-blue);
+.f-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  background: var(--light-blue);
 }
-.f-left{
-    gap: 1rem;
+.flexColStart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.f-menu{
-    gap: 1.5rem;
-    margin-top: 1rem;
+
+.f-left {
+  row-gap: 1rem;
+}
+.f-menu {
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .f-container {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .f-left>img{
+    align-self: center;
+  }
+  
+.f-right>span{
+      width: 100%;
+      text-align: center;
+  }
+  
+
 }

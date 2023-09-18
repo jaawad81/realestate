@@ -2,8 +2,8 @@ import React from "react";
 import './Footer.css'
 const Footer = () => {
   return (
-    <section className="f-wrapper">
-      <div className="flexCenter f-container innerWidth paddings">
+    <section className="f-wrapper" id="footer">
+      <div className=" f-container innerWidth paddings">
         <div className="flexColStart f-left">
           <img src="./logo2.png" alt="Loading" width={120} />
           <span className="secondaryText">
