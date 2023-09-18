@@ -1,0 +1,13 @@
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    background: var(--light-blue);
+}
+.f-left{
+    gap: 1rem;
+}
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1rem;
+}

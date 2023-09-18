@@ -3,7 +3,10 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Company from "./components/Companies/Company";
 import Residences from "./components/Residences/Residences";
-// import GetStarted from "./components/GetStarted/GetStarted";
+import Value from "./components/Value/Value";
+import Contact from "./components/Contact/Contact";
+import GetStarted from "./components/GetStarted/GetStarted";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 const App = () => {
@@ -16,7 +19,10 @@ const App = () => {
         </div>
         <Company/>
         <Residences/>
-        {/* <GetStarted/> */}
+        <Value/>
+        <Contact/>
+        <GetStarted/>
+        <Footer/>
       </div>
   );
 };
